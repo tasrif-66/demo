@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>simple form </title>
+  <style>
+    nav a {
+      text-decoration: none;
+      color: black;
+
+    }
+
+    nav {
+      margin: 0 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    form {
+      /* border: 2px solid tomato; */
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+
+    form input {
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+
+    .form-class {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <section>
+      <a href="">Home</a>
+      <a href="">Blog</a>
+      <a href="">About</a>
+    </section>
+    <a href="">Login</a>
+  </nav>
+  <div class="form-class">
+    <form>
+      <h1>Fill this form</h1>
+      <input type="Email" placeholder="Ypur mail" required>
+      <input type="password" placeholder="your password" required>
+      <input type="submit" value="Login">
+
+    </form>
+  </div>
+
+</body>
+
+</html>
